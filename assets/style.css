@@ -1,0 +1,60 @@
+* {
+    background-color: rgb(145, 192, 133);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* header/nav */
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* about me */
+#selfie {
+    max-height: 200px;
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* my work */
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.webpage {
+    border: solid 5px rgb(131, 27, 105); 
+    margin: 20px;
+    padding: 20px; 
+    width:300px;
+    height: 100px;
+}
+
+.webpage:hover {
+    opacity: 70%;
+}
+
+.run-buddy {
+    background-color: white;
+    height: 300px;
+}
+
+.horiseon {
+    background-color: gray;
+}
+
+.dummy-one {
+    background-color: pink;
+}
+
+.dummy-two {
+    background-color: greenyellow;
+}
+
+.dummy-three {
+    background-color: blue;
+}
