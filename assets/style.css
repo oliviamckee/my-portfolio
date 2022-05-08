@@ -12,13 +12,17 @@ a {
 .navigation {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 30px;
     padding-right: 30px;
 }
 
 .navigation h1 {
-    font-size: 40px;
+    font-size: 50px;
+}
+
+.navigation nav ul li {
+    font-size: 20px;
 }
 
 /* about me */
@@ -41,7 +45,7 @@ a {
 .my-work {
     display: flex;
     flex-wrap: wrap;
-    
+    flex: 1 0 auto;
 }
 
 .webpage {
@@ -50,6 +54,20 @@ a {
     padding: 20px; 
     width:250px;
     height: 100px;
+}
+
+.webpage-text {
+    width: 125px;
+}
+
+.webpage-text h3 {
+    padding: 0px;
+    margin: 0px; 
+}
+
+.webpage-text p {
+    padding: 0px;
+    margin: 0px; 
 }
 
 .webpage:hover {
@@ -68,25 +86,29 @@ a:hover {
 }
 
 .horiseon {
-    background-color: gray;
+    background-image: url(./images/horiseon-screenshot.png);
+    background-size: cover;
 }
 
 .dummy-one {
-    background-color: pink;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
 }
 
 .dummy-two {
-    background-color: greenyellow;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
 }
 
 .dummy-three {
-    background-color: blue;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
 }
 
 /* media queries */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
     .webpage {
-        width: 250px;
+        width: 200px;
     }
 }
