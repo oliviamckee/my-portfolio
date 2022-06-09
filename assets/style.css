@@ -1,6 +1,9 @@
 * {
-    background-color: rgb(145, 192, 133);
     font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(145, 192, 133);
 }
 
 a {
@@ -43,6 +46,11 @@ a {
 }
 
 /* my work */
+
+#my-work {
+    padding: 30px;
+}
+
 .my-work {
     display: flex;
     flex-wrap: wrap;
@@ -53,12 +61,15 @@ a {
     border: solid 5px rgb(131, 27, 105); 
     margin: 20px;
     padding: 20px; 
-    width:250px;
-    height: 100px;
+    width: 250px;
+    height: 160px;
 }
 
 .webpage-text {
     width: 125px;
+    background-color: rgb(131, 27, 105);
+    opacity: 80%;
+    color: white;
 }
 
 .webpage-text h3 {
@@ -79,31 +90,37 @@ a:hover {
     text-decoration: underline;
 }
 
-.run-buddy {
-    background-image: url(./images/run-buddy-screenshot.png);
+#movie-nerds {
+    background-image: url();
     background-size:cover;
-    width: 590px;
-    height: 200px;
 }
 
-.horiseon {
-    background-image: url(./images/horiseon-screenshot.png);
+#weather-dashboard {
+    background-image: url(./images/weather-dashboard-screenshot.png);
     background-size: cover;
 }
 
-.dummy-one {
-    background-image: url(https://picsum.photos/200/300);
+#workday-scheduler {
+    background-image: url(./images/workday-scheduler-screenshot.png);
     background-size: cover;
 }
 
-.dummy-two {
-    background-image: url(https://picsum.photos/200/300);
+#coding-quiz {
+    background-image: url(./images/coding-quiz-screenshot.png);
     background-size: cover;
 }
 
-.dummy-three {
-    background-image: url(https://picsum.photos/200/300);
+#password-generator {
+    background-image: url(./images/password-generator-screenshot.png);
     background-size: cover;
+}
+
+
+/* contact me */
+
+#contact-me {
+    padding: 30px;
+    font-size: 20px;
 }
 
 /* media queries */
