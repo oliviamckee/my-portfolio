@@ -59,9 +59,9 @@ section {
 }
 
 .webpage {
-    border: solid 5px rgb(131, 27, 105); 
+    border: solid 5px rgb(131, 27, 105);
     margin: 20px;
-    padding: 20px; 
+    padding: 20px;
     width: 250px;
     height: 160px;
 }
@@ -75,12 +75,12 @@ section {
 
 .webpage-text h3 {
     padding: 0px;
-    margin: 0px; 
+    margin: 0px;
 }
 
 .webpage-text p {
     padding: 0px;
-    margin: 0px; 
+    margin: 0px;
 }
 
 .webpage:hover {
@@ -93,7 +93,7 @@ a:hover {
 
 #movie-nerds {
     background-image: url(./images/movie-nerds-screenshot.png);
-    background-size:cover;
+    background-size: cover;
 }
 
 #weather-dashboard {
@@ -116,6 +116,20 @@ a:hover {
     background-size: cover;
 }
 
+#note-taker {
+    background-image: url(./images/note-taker-screenshot.png);
+    background-size: cover;
+}
+
+#tech-blog {
+    background-image: url(./images/tech-blog-screenshot.png);
+    background-size: cover;
+}
+
+#fictional-guacamole {
+    background-image: url(./images/fictional-guacamole-screenshot.png);
+    background-size: cover;
+}
 
 /* contact me */
 
